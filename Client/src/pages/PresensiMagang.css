@@ -1,0 +1,149 @@
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card-1, .card-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.table-container-presensi {
+    overflow-x: auto;
+}
+
+.custom-table-presensi {
+    width: 100% !important;
+    border-collapse: collapse;
+}
+
+.custom-table-presensi th,
+.custom-table-presensi td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.custom-table-presensi th {
+    background-color: #f2f2f2;
+}
+
+.custom-table-presensi tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.custom-table-presensi tr:hover {
+    background-color: #ddd;
+}
+
+.custom-table-presensi Link {
+    margin-right: 5px;
+}
+
+.button.is-small {
+    margin-right: 5px;
+}
+
+.button.is-info {
+    background-color: #1E90FF;
+}
+
+.button.is-danger {
+    background-color: #FF4500;
+}
+
+.button.is-small {
+    color: white;
+}
+
+.button.is-small:hover {
+    opacity: 0.8;
+}
+
+.button-container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button.is-success {
+    background-color: #4CAF50;
+}
+
+.button.is-success:hover {
+    opacity: 0.8;
+}
+
+.button.is-danger {
+    background-color: #FF5733;
+}
+
+.button.is-danger:hover {
+    opacity: 0.8;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .card-1, .card-2 {
+        flex-direction: column;
+    }
+
+    .card-2 {
+        margin-top: 5px;
+    }
+
+    .custom-table-presensi {
+        overflow-x: auto;
+    }
+
+    .custom-table-presensi th,
+    .custom-table-presensi td {
+        white-space: nowrap;
+    }
+
+    .custom-table-presensi th {
+        position: sticky;
+        top: 0;
+        background-color: #f2f2f2;
+    }
+
+    .custom-table-presensi tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .custom-table-presensi tr:hover {
+        background-color: #ddd;
+    }
+
+    .custom-table-presensi Link {
+        display: block;
+        margin-right: 0;
+        margin-top: 5px;
+    }
+
+    .button.is-small {
+        margin-right: 0;
+        margin-top: 5px;
+    }
+
+    .button-container {
+        justify-content: center;
+        margin: 10px 0;
+    }
+}

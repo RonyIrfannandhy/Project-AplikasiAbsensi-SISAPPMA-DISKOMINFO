@@ -1,0 +1,145 @@
+.count-admin {
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.count-admin p {
+    font-family: "Poppins, sans-serif";
+    font-size: 18;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    white-space: nowrap;
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.custom-table th {
+    background-color: #f2f2f2;
+}
+
+.custom-table th {
+    background-color: #f2f2f2;
+}
+
+.custom-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.custom-table tr:hover {
+    background-color: #ddd;
+}
+
+@media (max-width: 767px) {
+
+    .custom-table th,
+    .custom-table td {
+        padding: 8px 10px;
+    }
+}
+
+.pagination-admin {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-list-admin {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.pagination-item {
+    margin: 0;
+}
+
+.pagination-link {
+    padding: 5px 10px;
+    background-color: #0e6ee1;
+    color: #fff;
+    border: 1px solid #0e6ee1;
+    cursor: pointer;
+}
+
+.pagination-link:hover {
+    background-color: #4d7df1;
+}
+
+.pagination-link.is-disabled {
+    background-color: #ddd;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.pagination-link.is-current {
+    background-color: #062775;
+}
+
+.button {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.export-button {
+    margin: 10px 0px;
+    float: right;
+}
+
+@media (max-width: 767px) {
+    .search-peserta button {
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+
+    .export-button {
+        font-size: 14px;
+        padding: 4px 8px;
+        float: right;
+        margin: 10px 0px;
+    }
+}
+
+.search-peserta input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+}
+
+.search-peserta button {
+    margin: 10px 0px;
+}
+
+@media (max-width: 767px) {
+    .search-peserta input[type="text"] {
+        padding: 8px !important;
+        font-size: 14px !important;
+        max-width: 150px !important;
+    }
+
+    .count-admin {
+        margin-bottom: 20px;
+        border: 1px solid #000;
+        padding: 10px;
+        border-radius: 5px;
+        max-width: 150px;
+    }
+}

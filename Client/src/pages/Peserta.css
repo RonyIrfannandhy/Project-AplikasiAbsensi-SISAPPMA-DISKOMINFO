@@ -1,0 +1,181 @@
+.count-peserta {
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.count-peserta p {
+    font-family: "Poppins, sans-serif";
+    font-size: 18;
+}
+
+.search-peserta input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+}
+
+.search-peserta button {
+    margin: 10px 0px;
+}
+
+.table-container-peserta {
+    overflow-x: auto;
+}
+
+.custom-table-peserta {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    white-space: nowrap;
+}
+
+.custom-table-peserta th,
+.custom-table-peserta td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.custom-table-peserta th {
+    background-color: #f2f2f2;
+}
+
+.custom-table-peserta tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.custom-table-peserta tr:hover {
+    background-color: #ddd;
+}
+
+.custom-table-peserta button {
+    margin-right: 5px;
+}
+
+.pagination-peserta {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination-list-peserta {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.pagination-item {
+    margin: 0 5px;
+}
+
+.pagination-link {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pagination-link.is-current {
+    background-color: #fff;
+    color: #007bff;
+}
+
+@media (max-width: 767px) {
+    .custom-table-peserta th,
+    .custom-table-peserta td {
+        padding: 8px 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .search-peserta input[type="text"] {
+        padding: 8px !important;
+        font-size: 14px !important;
+        max-width: 150px !important;
+    }
+
+    .count-peserta {
+        margin-bottom: 20px;
+        border: 1px solid #000;
+        padding: 10px;
+        border-radius: 5px;
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 767px) {
+    .search-peserta button {
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+
+    .export-button {
+        font-size: 14px;
+        padding: 4px 8px;
+        float: right;
+        margin: 10px 0px;
+    }
+}
+
+.category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.category-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    width: auto;
+    background-color: #fff;
+    border: none;
+    color: #000;
+}
+
+.category-buttons button.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .category-buttons {
+        flex-direction: column;
+    }
+
+    .category-buttons button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .peserta-container-bottom {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .peserta-container-bottom button {
+        flex: 0 0 calc(50% - 5px);
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-right: 0px !important;
+        padding: 8px 16px;
+        font-size: 10px;
+    }
+}
+
+.peserta-container-bottom button {
+    margin-right: 5px;
+}

@@ -1,0 +1,152 @@
+.card-waktu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card-waktu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.table-container-penugasan {
+    overflow-x: auto;
+}
+
+.body-penugasan {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.title-penugasan {
+    text-align: start;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#penugasan {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.card-penugasan-1 {
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.card-penugasan-2 {
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    white-space: nowrap;
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.custom-table th {
+    background-color: #f2f2f2;
+}
+
+.custom-table th {
+    background-color: #f2f2f2;
+}
+
+.custom-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.custom-table tr:hover {
+    background-color: #ddd;
+}
+
+.green-penugasan {
+    background-color: green;
+}
+
+.red-penugasan {
+    background-color: red;
+}
+
+#informasi-penugasan {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.container-penugasan {
+    width: 100%;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.button {
+    font-size: 16px;
+}
+
+.export-button {
+    margin: 10px 0px;
+    padding: 10px 20px;
+}
+
+
+@media (max-width: 768px) {
+    .body-penugasan {
+        font-size: 16px;
+    }
+
+    .title-penugasan {
+        font-size: 20px;
+    }
+
+    #penugasan {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .card-penugasan-1 {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .card-penugasan-2 {
+        padding: 10px;
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    #informasi-penugasan {
+        margin-top: 10px;
+    }
+
+    .container-penugasan {
+        width: 100%;
+        padding: 10px;
+    }
+}
